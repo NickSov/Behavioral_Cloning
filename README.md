@@ -15,8 +15,7 @@ The filter size used was 5x5 followed by 3x3. The depths of the layers ranged be
 
 My first step was to use a convolution neural network model similar to the Nividia PilotNet architecture as described in the paper Explaining How a Deep Neural Network Trained with End-to-End Learning Steers a Car (arXiv:1704.07911v1). The architecture is shown in Figure 1. I deemed this network appropriate because it relates to the exact scenario embodied by this project: a self-driving car with camera sensor input. Furthermore, initial tests conducted on LeNet vs PilotNet concluded that the PilotNet architecture was superior.
 
-![PilotNet architecture][PilotNet]
-[PilotNet]:https://github.com/NickSov/Behavioral_Cloning/blob/master/Pilotnet.png
+![alt text](https://github.com/NickSov/Behavioral_Cloning/blob/master/Pilotnet.png "PilotNet")
 
 **Figure 1. PilotNet architecture (arXiv:1704.07911v1)**
 
@@ -40,5 +39,4 @@ All of the training was done with the mouse for steering control and "w" on the 
 
 Training data was chosen to keep the vehicle driving on the road. A wide range of data was used. Many different variants of the data were fed to the network in an effort to train the model effectively. The table below outlines the training runs that were tried:
 
-![training sets][train]
-[train]:https://github.com/NickSov/Behavioral_Cloning/blob/master/keras_traing.png
+![alt text](https://github.com/NickSov/Behavioral_Cloning/blob/master/keras_traing.png "training sets" )
